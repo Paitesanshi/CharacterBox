@@ -1,0 +1,29 @@
+# name of LLM model, 'custom' for custom model
+judger_llm: gpt-4o-mini
+narrator_llm: gpt-4o-mini
+character_llm: gpt-4o-mini
+# path for item data
+title: Harry_Potter
+scene_id: 0
+# directory name for faiss index
+round: 3
+# temperature for LLM
+temperature: 0
+# maximum number of tokens for LLM
+max_token: 1500
+# execution mode, serial or parallel
+max_retries: 1
+# verbose mode
+verbose: True
+# list of api keys for LLM API
+api_key: xxx
+# list of api bases for LLM API
+api_base: xxx
+
+record_dir: output/record
+character_record_path: character.json
+round_record_path: round.json
+plot_record_path: plot.json
+narrator_record_path: narrator.json
+max_rounds: 5
+max_scenes: 5

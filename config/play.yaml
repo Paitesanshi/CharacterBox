@@ -1,0 +1,37 @@
+# name of LLM model, 'custom' for custom model
+narrator_llm: gpt-4o-mini
+character_llm: gpt-4o-mini
+# path for scenes data
+scene_path: data/extracted_scenes/Harry_Potter.json
+# scene id
+scene_id: 0
+# number of rounds
+round: 3
+# number of max retries for LLM API
+max_retries: 5
+# maximum number of tokens for LLM
+max_token: 8192
+# temperature for LLM
+temperature: 0.5
+# verbose mode
+verbose: True
+# list of api keys for Character LLM
+character_api_key: xxx
+# list of api bases for Character LLM
+character_api_base: xxx
+# list of api keys for Narrator LLM
+narrator_api_key: xxx
+# list of api bases for Narrator LLM
+narrator_api_base: xxx
+
+# The id of the character played by human
+# play_role: 0
+
+# path to save records
+save_record: True
+record_dir: output/record
+character_record_path: character.jsonl
+round_record_path: round.jsonl
+plot_record_path: plot.jsonl
+all_record_path: all.jsonl
+narrator_record_path: narrator.jsonl
