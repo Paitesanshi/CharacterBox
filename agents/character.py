@@ -61,7 +61,7 @@ class Character(GenerativeAgent):
                 + "角色资料:\n"
                 + "姓名: {name}\n"
                 + "角色描述: {character_description}\n"
-                + "职位: {position}\n"
+                + "位置: {position}\n"
                 + "当前状态: {states}\n"
                 + "自我信念: {self_belief}\n"
                 + "环境信念: {env_belief}\n"
